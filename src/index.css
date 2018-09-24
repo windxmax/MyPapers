@@ -1,0 +1,146 @@
+html, body{
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+body{
+  color: #514f3a;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.main_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_add_paper{
+  width: 290px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 15px;
+}
+.form_add_paper_input,
+.form_add_paper_textarea,
+.form_add_paper_show_form_button,
+.form_add_paper_hide_form_button,
+.form_add_paper_send_button{
+    margin: 0;
+    padding: 0;
+    width: 270px;
+}
+.form_add_paper_input,
+.form_add_paper_textarea,
+.form_add_paper_show_form_button,
+.form_add_paper_hide_form_button,
+.form_add_paper_send_button{
+  box-sizing: border-box;
+  border: 1px solid #969273;
+  border-radius: 10px;
+  outline: none;
+  padding: 0px 10px;
+}
+  .form_add_paper_input:focus,
+  .form_add_paper_textarea:focus{
+    outline: none;
+    border: 1px solid #c1bc93;
+    border-radius: 10px;
+
+  }
+  .form_add_paper_input:active,
+  .form_add_paper_textarea:active{
+    outline: none;
+    border: 1px solid #c1bc93;
+    border-radius: 10px;
+  }
+.form_add_paper_textarea{
+  height: 150px;
+  resize: none;
+  overflow-y: scroll;
+  padding: 0 10px;
+}
+  .form_add_paper_textarea::-webkit-scrollbar-button {
+    background-repeat:no-repeat;
+  }
+  .form_add_paper_textarea::-webkit-scrollbar{
+    width: 5px;
+  }
+  .form_add_paper_textarea::-webkit-resizer{
+    background-repeat:no-repeat;
+    width:5px;
+    height:0px
+  }
+  .form_add_paper_textarea::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color:#d6d1a7;
+  }
+  .form_add_paper_hide_form_button:active,
+  .form_add_paper_show_form_button:active,
+  .form_add_paper_send_button:active{
+    background:#c1bc93;
+    border: 1px solid #d6d1a7;
+  }
+.form_add_paper_hide_form_button,
+.form_add_paper_show_form_button,
+.form_add_paper_send_button{
+  color: #514f3a;
+  background-color: #d6d1a7;
+  border: 1px solid #514f3a;
+  border-radius: 10px;
+}
+.paper_list_mane{
+
+}
+.paper_list_mane_ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.paper_list_empty_message{
+  width: 270px;
+  text-align: center;
+  margin-top: 70px;
+  border: 1px solid #d6d1a7;
+  border-radius: 10px;
+  background-color: #d6d1a7;
+}
+.paper_list_mane_some_element{
+  width: 290px;
+}
+  .paper_list_mane_some_element:last-child{
+    margin-bottom: 15px;
+  }
+.paper_list_mane_some_element_group_input{
+  width: 270px;
+  margin: auto;
+  border: 1px solid #969273;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+.paper_list_mane_some_element_group_input_header{
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 10px;
+}
+.paper_list_mane_some_element_group_input_fullText{
+  word-wrap: break-word;
+  margin: 15px 0px 0px 0px;
+  padding: 0px 10px 10px 10px;
+}
